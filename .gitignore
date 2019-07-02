@@ -1,0 +1,18 @@
+# Visual Studio specific files
+
+*.sdf
+*.opensdf
+*.suo
+*.user
+*.aps
+*.VC.db
+*.opendb
+*.pdb
+*.obj
+*.exe
+
+# Build results
+
+[Dd]ebug/
+[Rr]elease/
+node_modules
