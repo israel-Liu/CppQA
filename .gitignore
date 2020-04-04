@@ -1,18 +1,14 @@
-# Visual Studio specific files
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
 
-*.sdf
-*.opensdf
-*.suo
-*.user
-*.aps
-*.VC.db
-*.opendb
-*.pdb
-*.obj
-*.exe
+# macOS
+.DS_Store
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
 
-# Build results
-
-[Dd]ebug/
-[Rr]elease/
-node_modules
+# Node.js
+node_modules/
