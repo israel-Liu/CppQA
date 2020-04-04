@@ -1,0 +1,44 @@
+﻿  addon.cpp
+E:\Projects\node\src\node.h(236,76): warning C4275:  非 dll 接口 class“v8::ArrayBuffer::Allocator”用作 dll 接口 class“node::ArrayBufferAllocator”的基
+E:\Projects\node\deps\v8\include\v8.h(4681): message :  参见“v8::ArrayBuffer::Allocator”的声明
+E:\Projects\node\src\node.h(236): message :  参见“node::ArrayBufferAllocator”的声明
+E:\Projects\node\src\node.h(255,62): warning C4275:  非 dll 接口 class“v8::Platform”用作 dll 接口 class“node::MultiIsolatePlatform”的基
+E:\Projects\node\deps\v8\include\v8-platform.h(284): message :  参见“v8::Platform”的声明
+E:\Projects\node\src\node.h(255): message :  参见“node::MultiIsolatePlatform”的声明
+E:\Projects\node\src\node.h(736,26): warning C4251:  “node::CallbackScope::try_catch_”: class“v8::TryCatch”需要有 dll 接口由 class“node::CallbackScope”的客户端使用
+E:\Projects\node\deps\v8\include\v8.h(9099): message :  参见“v8::TryCatch”的声明
+E:\Projects\node\src\node.h(813,39): warning C4251:  “node::AsyncResource::resource_”: class“v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>”需要有 dll 接口由 class“node::AsyncResource”的客户端使用
+E:\Projects\node\src\node.h(813,39): warning C4251:         with
+E:\Projects\node\src\node.h(813,39): warning C4251:         [
+E:\Projects\node\src\node.h(813,39): warning C4251:             T=v8::Object
+E:\Projects\node\src\node.h(813,39): warning C4251:         ]
+  myobject.cpp
+E:\Projects\node\src\node.h(813): message :  参见“v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>”的声明
+E:\Projects\node\src\node.h(813): message :         with
+E:\Projects\node\src\node.h(813): message :         [
+E:\Projects\node\src\node.h(813): message :             T=v8::Object
+E:\Projects\node\src\node.h(813): message :         ]
+E:\Projects\node\src\node.h(236,76): warning C4275:  非 dll 接口 class“v8::ArrayBuffer::Allocator”用作 dll 接口 class“node::ArrayBufferAllocator”的基
+E:\Projects\node\deps\v8\include\v8.h(4681): message :  参见“v8::ArrayBuffer::Allocator”的声明
+E:\Projects\node\src\node.h(236): message :  参见“node::ArrayBufferAllocator”的声明
+E:\Projects\node\src\node.h(255,62): warning C4275:  非 dll 接口 class“v8::Platform”用作 dll 接口 class“node::MultiIsolatePlatform”的基
+E:\Projects\node\deps\v8\include\v8-platform.h(284): message :  参见“v8::Platform”的声明
+E:\Projects\node\src\node.h(255): message :  参见“node::MultiIsolatePlatform”的声明
+E:\Projects\node\src\node.h(736,26): warning C4251:  “node::CallbackScope::try_catch_”: class“v8::TryCatch”需要有 dll 接口由 class“node::CallbackScope”的客户端使用
+E:\Projects\node\deps\v8\include\v8.h(9099): message :  参见“v8::TryCatch”的声明
+E:\Projects\node\src\node.h(813,39): warning C4251:  “node::AsyncResource::resource_”: class“v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>”需要有 dll 接口由 class“node::AsyncResource”的客户端使用
+E:\Projects\node\src\node.h(813,39): warning C4251:         with
+E:\Projects\node\src\node.h(813,39): warning C4251:         [
+E:\Projects\node\src\node.h(813,39): warning C4251:             T=v8::Object
+E:\Projects\node\src\node.h(813,39): warning C4251:         ]
+E:\Projects\node\src\node.h(813): message :  参见“v8::Persistent<v8::Object,v8::NonCopyablePersistentTraits<T>>”的声明
+E:\Projects\node\src\node.h(813): message :         with
+E:\Projects\node\src\node.h(813): message :         [
+E:\Projects\node\src\node.h(813): message :             T=v8::Object
+E:\Projects\node\src\node.h(813): message :         ]
+    正在创建库 F:\Projects\CppQA\CppQA\x64\Release\CppAddons.lib 和对象 F:\Projects\CppQA\CppQA\x64\Release\CppAddons.exp
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 157 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  CppAddons.vcxproj -> F:\Projects\CppQA\CppQA\x64\Release\CppAddons.node

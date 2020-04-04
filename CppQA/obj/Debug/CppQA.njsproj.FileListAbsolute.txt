@@ -1,0 +1,3 @@
+F:\Projects\CppQA\CppQA\obj\Debug\CppQA.njsprojAssemblyReference.cache
+F:\Projects\CppQA\CppQA\obj\Debug\CppQA.njsproj.CoreCompileInputs.cache
+F:\Projects\CppQA\CppQA\bin\Microsoft.NodejsTools.WebRole.dll
